@@ -11,11 +11,3 @@ void setup() {
     int positionY = int(floor(random(20, 158))); // 20 pixel top and bottom padding
     rect(positionX, positionY, 50, 50); // x, y, width, height
 }
-
-void mouseOver() {
-    background(100, 100, 100);
-}
-
-void mouseOut() {
-    background(200, 200, 200);
-}
